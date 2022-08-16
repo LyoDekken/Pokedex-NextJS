@@ -1,7 +1,7 @@
 import MyApp from "./_app"
 import styles from "../styles/Home.module.css";
-import Card from "./components/Card/Card";
-import logoPokeball from './public/images/pokeball.png'
+import Card from "../components/Card/Card";
+import logoPokeball from '../public/images/pokeball.png';
 import Image from "next/image";
 
 
