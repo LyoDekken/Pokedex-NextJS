@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 
-import Main from './components/Main/'
+import Main from '../components/Main'
 
 function MyApp({ Component, pageProps }) {
   return (
