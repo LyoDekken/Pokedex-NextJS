@@ -1,4 +1,3 @@
-import MyApp from "./_app"
 import styles from "../styles/Home.module.css";
 import Card from "../components/Card/Card";
 import logoPokeball from '../public/images/pokeball.png';
@@ -6,7 +5,7 @@ import Image from "next/image";
 
 
 export async function getStaticProps(){
-  const maxPokemons = 251
+  const maxPokemons = 248;
   const api = `https://pokeapi.co/api/v2/pokemon/`;
 
   const res = await fetch(`${api}/?limit=${maxPokemons}`)
