@@ -1,4 +1,4 @@
-import styles from "./Pokemon.module.css";
+import styles from "../../styles/Pokemon.module.css";
 
 import Image from "next/image";
 
@@ -12,7 +12,7 @@ export const getStaticPaths = async () => {
 
   const paths = data.results.map((pokemon, index) => {
     return {
-      params: { pokemonId: index.toString() },
+      params: { pokemonId: (index + 1).toString() },
     };
   });
 

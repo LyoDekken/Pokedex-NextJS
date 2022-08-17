@@ -1,14 +1,15 @@
 import Link from 'next/link'
-import styles from './Navbar.module.css'
+
+import styles from '../styles/Navbar.module.css'
+
 import Image from 'next/image'
-import logoPokeball from '../../public/images/pokeball.png'
 
 export default function Navbar() {
   return (
     <nav className={styles.navbar}>
       <div className={styles.logo}>
         <Image
-          src={logoPokeball}
+          src="/images/pokeball.png"
           width="30"
           height="30"
           alt="PokeNext"
